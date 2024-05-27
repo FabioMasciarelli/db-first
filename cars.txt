@@ -1,0 +1,16 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+
+kilometers          -   INT | NOT NULL    
+owners              -   TINYINT UNSIGNED | NOT NULL
+transmission        -   VARCHAR(255) 
+fuel                -   VARCHAR(255)
+color               -   VARCHAR(255)
+interior_color      -   VARCHAR(255)
+interior_material   -   VARCHAR(255)
+category            -   VARCHAR(255)
+brand               -   VARCHAR(255) | NOT NULL
+model               -                | NOT NULL
+price               -   DECIMAL (10, 2)
+traction            -   VARCHAR(255)
+production_year     -   YEAR | NOT NULL
